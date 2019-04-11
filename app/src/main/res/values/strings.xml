@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SQLiteListas</string>
+    <string name="title_lugar">Lugar</string>
+    <string name="title_provincia">Provincia</string>
+    <string name="intro_datos">Añadir/Eliminar Datos</string>
+    <string name="guarda_datos">Guardar Datos</string>
+    <string name="carga_datos">Cargar Datos</string>
+    <string name="borra_datos">Eliminar Datos</string>
+</resources>

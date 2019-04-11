@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiante"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/intro_datos"
+        android:background="@drawable/boton_redondo"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/load_button"
+        android:layout_below="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/carga_datos"
+        android:background="@drawable/boton_redondo"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ListView
+        android:id="@+id/lugares_list"
+        android:layout_below="@id/load_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null" />
+
+</RelativeLayout>

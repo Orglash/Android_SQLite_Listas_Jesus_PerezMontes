@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/title_lugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:text="@string/title_lugar" />
+    <TextView
+        android:id="@+id/tv_lugar"
+        android:layout_toEndOf="@id/title_lugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        tools:text="Linares" />
+    <TextView
+        android:id="@+id/title_provincia"
+        android:layout_below="@id/tv_lugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:text="@string/title_provincia" />
+    <TextView
+        android:id="@+id/tv_provincia"
+        android:layout_toEndOf="@id/title_provincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_lugar"
+        android:layout_below="@+id/tv_lugar"
+        tools:text="Jaen" />
+</RelativeLayout>
